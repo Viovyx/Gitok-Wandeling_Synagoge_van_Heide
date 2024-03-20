@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/home/css/styles.css" rel="stylesheet" type="text/css">
+
+    <title>Wandeling | Synagoge van Heide</title>
+</head>
+
+<body>
+<header>
+    <a href="/home/" class="flex-center home">
+        <img src="/home/static/img/Gitok_logo_white.png" alt="Logo">
+        <h1>Synagoge van Heide</h1>
+    </a>
+</header>
+
+<main>
+    <img src="/home/static/img/synagoge-background.jpg" alt="background" class="bg">
+
+    <a href="/home/" class="button">&blacktriangleleft; Terug naar startpagina</a>
+    <div id="warning-message" style="display: none;">
+        Het lijkt erop dat je geen mobiel apparaat gebruikt.<br>
+        Bezoek deze website op een mobiel apparaat om de QR codes te scannen.
+    </div>
+
+    <div class="box">
+        <h1 class="home-title">De wandeling:</h1>
+        <p class="home-text">Scan de QR codes die je onderweg tegenkomt om onderstaande knoppen te ontgrendelen!</p>
+
+        <img src="/home/static/img/route.png" alt="route.png" class="box-img">
+        <p class="home-text">Klik hieronder om de route te bekijken op:</p>
+        <a class="route-btn" href="https://maps.app.goo.gl/jxpcJXBNbvqsQ4gLA" target="_blank">Google Maps</a>
+        <br>
+        <a class="route-btn" href="https://www.komoot.com/tour/1471804465" target="_blank">Komoot</a>
+        <br><br>
+        <p class="home-text">Of download het GPX bestand hier:</p>
+        <a class="route-btn" href="/home/static/route.gpx" target="_blank">route.gpx</a>
+        <br><br>
+    </div>
+
+    <div class="button-group">
+        <a id="btn1" class="button lock" href="/home/wandeling/1-kerk-heide">Kerk Heide</a>
+        <a id="btn2" class="button lock" href="/home/wandeling/2-station-heide">Station Heide</a>
+        <a id="btn3" class="button lock" href="/home/wandeling/3-hotel-de-zwaan">Hotel De Zwaan</a>
+        <a id="btn4" class="button lock" href="/home/wandeling/4-felice-en-helena">Felice en Helena</a>
+        <a id="btn5" class="button lock" href="/home/wandeling/5-synagoge">Synagoge</a>
+        <!--        <a id="btn6" class="button lock" href="/wandeling/6-kinderwelzijnstraat">Kinderwelzijnstraat</a>-->
+        <a id="btn7" class="button lock" href="/home/wandeling/7-nieuwstraat">Nieuwstraat</a>
+        <!--        <a id="btn8" class="button lock" href="/wandeling/8-bospadje-de-vroente">Bospadje De Vroente</a>-->
+        <a id="btn9" class="button lock" href="/home/wandeling/9-kalmthoutse-heide">Kalmthoutse Heide</a>
+        <a id="btn10" class="button lock" href="/home/wandeling/10-keienhof">Keienhof</a>
+    </div>
+
+    <a href="#" class="button danger" onclick="resetButtonStates()">
+        &#9888; Herstart &#9888;
+    </a>
+</main>
+
+<footer class="flex-between">
+    <h3>&copy; 2024 <a class="link" href="https://gitok.be" target="_blank">Gitok Kalmthout</a></h3>
+    <h3><a class="link" href="/home/info/">Alle informatie</a> </h3>
+    <h3> <a class="link" href="/home/info/bronnen">Bronnen</a> </h3>
+    <h3>Gemaakt door <a class="link" href="/home/info/gemaakt-door">5DSIC & 5DSBW</a></h3>
+</footer>
+
+<a id="backToTopButton">&blacktriangle;</a>
+<script src="/home/js/set-buttons.js"></script>
+<script src="/home/js/onload.js"></script>
+</body>
+
+</html>
