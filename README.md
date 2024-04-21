@@ -16,7 +16,11 @@ De website is beschikbaar op [https://synagoge.gitok.be](https://synagoge.gitok.
 Deze website is vrij simpel van code en is opgebouwd in plain HTML, CSS en JavaScript. 
 Hoewel het aanzienlijk geoptimaliseerder zou kunnen zijn met behulp van een framework, vond ik het vanwege mijn beperkte kennis van de vereiste frameworks te riskant om dit voor dit specifieke project te proberen
 
-De video en audio bestanden van de website zijn niet beschikbaar in deze repo vanwege het upload limiet van Github.
+De video en audio bestanden van de website zijn niet beschikbaar in deze repo vanwege het uploadlimiet van Github.
 De bestanden zijn wel altijd beschikbaar op de website met volgende locaties: 
 - https://synagoge.gitok.be/home/static/video/{naam-video}.mp4
 - https://synagoge.gitok.be/home/static/audio/{naam-audio}.mp3
+
+# For the non-dutch peeps
+
+This is a school project of my class and I, thus this will only be available in dutch.
