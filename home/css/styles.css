@@ -132,12 +132,9 @@ main{
 
 .button-group {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5em;
 
-    @media (max-width: 1300px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
     @media (max-width: 800px) {
         grid-template-columns: 1fr;
     }
@@ -222,7 +219,7 @@ main{
     font-size: 1.2em;
     margin: 0.5em;
     color: var(--copy-light);
-    max-width: 80em;
+    max-width: 50em;
 }
 
 .box{
@@ -230,6 +227,7 @@ main{
     padding: 0.7em;
     border-radius: 1em;
     margin-bottom: 1em;
+    max-width: 50em;
 }
 
 .box>img{
