@@ -54,7 +54,40 @@ function toggleButtonLock(button, action) {
 }
 localStorage.setItem('buttonStates', JSON.stringify(buttonStates));
 if (unlockBtn64 !== null) {
-    window.location.href = '/home/wandeling/';
+    switch (unlockBtn) {
+        case 'btn1':
+            page = '1-kerk-heide';
+            break;
+        case 'btn2':
+            page = '2-station-heide';
+            break;
+        case 'btn3':
+            page = '3-hotel-de-zwaan';
+            break;
+        case 'btn4':
+            page = '4-felice-en-helena';
+            break;
+        case 'btn5':
+            page = '5-synagoge';
+            break;
+        case 'btn6':
+            page = '6-kinderwelzijnstraat';
+            break;
+        case 'btn7':
+            page = '7-nieuwstraat';
+            break;
+        case 'btn8':
+            page = '8-bospadje-de-vroente';
+            break;
+        case 'btn9':
+            page = '9-kalmthoutse-heide';
+            break;
+        case 'btn10':
+            page = '10-keienhof';
+            break;
+    }
+
+    window.location.href = '/home/wandeling/' + page;
 }
 
 function resetButtonStates() {
